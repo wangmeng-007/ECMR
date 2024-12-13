@@ -31,8 +31,12 @@ data
 Training and Evaluation：
 ------
 
-Training on the Flicker30K or COCO dataset:  
-Switch to the shell folder in the corresponding path. For example:  
-cd ./ELSE_BIGRU/shell/  
-run ./train_xxx_f30k.sh or ./train_xxx_coco.sh. For example:  
-sh train_GRU_f30k.sh  
+Training on the Flicker30K or COCO dataset:
+1. Switch to the shell folder in the corresponding path. For example:
+  ```
+  cd ./ESA_BIGRU/shell/
+  ```
+2. run ./train_xxx_f30k.sh or ./train_xxx_coco.sh. For example:
+  ```
+  sh train_GRU_f30k.sh
+  ```
