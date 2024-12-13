@@ -3,7 +3,7 @@ Dataset：
   
 coco_butd and f30k_butd: Datasets used for the Faster-RCNN image backbone. We use the pre-computed features provided by SCAN, which can be downloaded via https://github.com/kuanghuei/SCAN#download-data.
 All datasets used in the experiments are organized in the following manner:  
-
+```
 data  
 ├── coco  
 │   ├── precomp  # pre-computed BUTD region features for COCO, provided by SCAN  
@@ -26,7 +26,8 @@ data
 │          └── ...  
 │     
 └── vocab  # vocab files provided by SCAN (only used when the text backbone is BiGRU)   
-  
+```
+
 Training and Evaluation：
 ------
 
